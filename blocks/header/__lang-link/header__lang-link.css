@@ -1,0 +1,16 @@
+.header__lang-link {
+  color: #fff;
+  width: 1.875rem;
+  height: 1.75rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.75rem;
+  text-align: right;
+      border: 1px solid red;
+}
+
+.header__lang-link:last-child {
+  margin-left: 1.125rem;
+  text-decoration: none;
+}

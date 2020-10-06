@@ -1,0 +1,15 @@
+.place__website {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  margin: 0;
+  margin-bottom: 3rem;
+  justify-items: start;
+  align-self: end;
+    border: 1px solid red;
+}
+
+@media (max-width: 320px) {
+  .place__website {
+	display: none;
+  }
+}

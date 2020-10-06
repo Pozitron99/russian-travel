@@ -1,0 +1,4 @@
+.place__text {
+  display: grid;
+  grid-template-rows: minmax(min-content, max-content);
+}

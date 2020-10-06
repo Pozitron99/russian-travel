@@ -1,0 +1,28 @@
+.place {
+  display: grid;
+  /*grid-template-columns: repeat(2, auto);*/
+  grid-template-columns: minmax(min-content, max-content) 1fr;
+  /*grid-template-rows: minmax(min-content, max-content) 1frrepeat(2, auto)*/;
+  grid-column-gap: 2.5rem;
+  /*margin: auto;*/
+    border: 1px solid red;
+}
+
+@media (max-width: 1024px) {
+  .place {
+	grid-column-gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+	grid-column-gap: 1.75rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+	display: flex;
+	flex-direction: column;
+  }
+}

@@ -1,0 +1,25 @@
+.place__image {
+  max-height: 460px;
+  max-width: 100%;
+  grid-column: 1/1;
+  grid-row: 2/3;
+    border: 1px solid red;
+}
+
+@media (max-width: 1024px) {
+  .place__image {
+	max-width: 27.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__image {
+	width: 21.25rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__image {
+	width: 20rem;
+  }
+}

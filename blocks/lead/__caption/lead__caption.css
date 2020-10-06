@@ -1,0 +1,17 @@
+.lead__caption {
+  align-self: flex-start;
+  margin: 0;
+  margin-top: 0.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.15em;
+    border: 1px solid red;
+}
+
+@media (max-width: 320px) {
+  .lead__caption {
+  margin-left: 1rem;
+  }
+}

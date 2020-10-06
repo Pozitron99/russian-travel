@@ -1,0 +1,23 @@
+.cover__title {
+  width: 35rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 4.75rem;
+  text-align: center;
+    border: 1px solid red;
+}
+
+@media (max-width: 320px) {
+  .cover__title {
+	max-width: 18rem;
+	height: 4.375rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	line-height: 2.1875rem;
+  }
+}
