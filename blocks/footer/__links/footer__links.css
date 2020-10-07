@@ -1,6 +1,5 @@
 .footer__links {
   font-size: 0;
-    border: 1px solid red;
 }
 
 @media (max-width: 320px) {

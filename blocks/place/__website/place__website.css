@@ -5,7 +5,6 @@
   margin-bottom: 3rem;
   justify-items: start;
   align-self: end;
-    border: 1px solid red;
 }
 
 @media (max-width: 320px) {

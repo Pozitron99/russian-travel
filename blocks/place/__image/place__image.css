@@ -3,7 +3,6 @@
   max-width: 100%;
   grid-column: 1/1;
   grid-row: 2/3;
-    border: 1px solid red;
 }
 
 @media (max-width: 1024px) {
